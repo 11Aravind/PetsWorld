@@ -1,6 +1,6 @@
 const Foods=()=>{
     return(
-        <>Foods component</>
+        <div className="topSpacing">Foods component</div>
     );
 }
 export default Foods;

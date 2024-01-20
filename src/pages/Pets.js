@@ -1,6 +1,6 @@
 const Pets=()=>{
     return(
-        <>Pets pages</>
+        <div className="topSpacing">Pets pages</div>
     );
 }
 export default Pets;

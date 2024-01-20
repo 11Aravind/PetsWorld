@@ -1,6 +1,6 @@
 const Home=()=>{
     return(
-        <>Home component</>
+        <div className="topSpacing">Home component</div>
     );
 }
 export default Home;

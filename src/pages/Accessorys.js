@@ -1,6 +1,6 @@
 const Accessorys=()=>{
     return(
-        <>Accessorys component</>
+        <div className="topSpacing">Accessorys component</div>
     );
 }
 export default Accessorys;
