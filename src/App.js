@@ -1,6 +1,11 @@
+ import AllRouter from "./AllRoutes";
+ import Navbar from"./component/Navbar";
  const App=()=> {
   return (
-   <h1>React Page</h1>
+ <div className="container">
+  <Navbar/>
+  <AllRouter/>
+ </div>
   );
 }
 export default App;
