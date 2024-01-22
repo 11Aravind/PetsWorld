@@ -3,21 +3,23 @@ import "./CSS/Navbar.css";
 const Navbar = () => {
     const menus = [
         {
-            menu: 'Pets',
+            menu: 'PETS',
             to: "/Pets"
         },
         {
-            menu: 'Food',
+            menu: 'FOOD',
             to: "/foods"
         },
         {
-            menu: 'Accessorys',
+            menu: 'ACCESSORYS',
             to: "/accessorys"
         },
         {
-            menu: 'Contact',
+            menu: 'CONTACT',
             to: "/accessorys"
         },
+
+
     ];
     return (
         <nav className="navbar">
@@ -36,16 +38,17 @@ const Navbar = () => {
                             );
                         })
                     }
-                    {/* <li><span className="menu">About</span></li>
-                    <li><span className="menu">Category</span></li>
-                    <li><span className="menu">Menu</span></li>
-                    <li><span className="menu">Testimonial</span></li>
-                    <li><span className="menu">Contact</span></li> */}
                 </ul>
-                <h1 className="logo">PetsWorld</h1>
+                <h1 className="logo"><Link to="/">
+                    <img src="	https://greenlandorganicfarms.com/image/logo.png" alt="" />                </Link> </h1>
+                <ul className="menu-items">
+                    <li><Link to="/" className="menu">search</Link></li>
+                    <li><Link to="/" className="menu"><i className="fa fa-shopping-cart" aria-hidden="true"></i></Link></li>
+                    <li><Link to="/login"><button className="loginBtn menu">Login</button></Link></li>
+                </ul>
             </div>
         </nav>
 
     );
 }
-export default Navbar;
+export default Navbar;  

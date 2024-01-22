@@ -12,6 +12,8 @@ code {
     monospace;
 } */
 *{
+  font-family: Outfit,sans-serif!important;
+
   margin: 0;;
   padding: 0;;
 }
@@ -19,4 +21,15 @@ code {
   margin-top: 78px;
     position: fixed;
     z-index: 0;
+    width: 100%;
+}
+.subNavBar{
+  background-color: blueviolet;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+img{
+  width: 100%;
 }
