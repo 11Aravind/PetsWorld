@@ -1,0 +1,19 @@
+.productDetails-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+}
+.left-container{
+    width: 50%;
+}
+.rigt-container{
+    width: 50%;
+}
+.product-title{
+    font-size: 25px;
+    line-height: 1.2;
+    color: #1d1d1d;
+    font-weight: 700;
+    letter-spacing: -.03em;
+}

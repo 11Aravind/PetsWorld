@@ -16,7 +16,7 @@ const Navbar = () => {
         },
         {
             menu: 'CONTACT',
-            to: "/accessorys"
+            to: "/productdetails"
         },
 
 

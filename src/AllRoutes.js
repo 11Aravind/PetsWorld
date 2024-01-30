@@ -6,6 +6,7 @@ import {Login} from "./pages/Login";
 import {Signup} from "./pages/Signup";
 import { Routes, Route } from "react-router-dom";
 import Notfound from "./pages/Notfound";
+import Productdetails from "./pages/Productdetails"
 const routerInfo = [
     {
         path: "/",
@@ -22,6 +23,10 @@ const routerInfo = [
     {
         path: "/accessorys",
         component: <Accessorys />
+    },
+    {
+        path: "/productdetails",
+        component: <Productdetails />
     },
     {
         path: "/login",

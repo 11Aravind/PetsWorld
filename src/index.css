@@ -20,8 +20,8 @@ code {
 .topSpacing{
   margin-top: 78px;
     position: fixed;
-    margin-left: 67px;
-    margin-right: 67px;
+    /* margin-left: 67px;
+    margin-right: 67px; */
   /* margin-top: 78px;
     position: fixed;
     z-index: 0;
