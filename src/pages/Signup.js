@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Signup=()=>{
     return(
+      <div className="topSpacing">
         <div className="formbold-main-wrapper">
         <div className="formbold-form-wrapper">
           <form>
@@ -9,9 +10,6 @@ export const Signup=()=>{
               <h2 className="">SIGN UP</h2>
             </div>
             <div className="formbold-mb-3">
-                 {/* <label for="Username" class="formbold-form-label">
-            Username
-            </label> */}
               <input placeholder="Username"
               id="Username"
                 type="text"  className="formbold-form-input"
@@ -29,9 +27,10 @@ export const Signup=()=>{
             </div>
   
             <button className="formbold-btn">SIGN UP</button>
-  <small className="redirect">Already have an Account ? <Link to="/signup">Sign In</Link></small>
+  <small className="redirect">Already have an Account ? <Link to="/login">Sign In</Link></small>
           </form>
         </div>
+      </div>    
       </div>
     );
 }

@@ -20,8 +20,12 @@ code {
 .topSpacing{
   margin-top: 78px;
     position: fixed;
+    margin-left: 67px;
+    margin-right: 67px;
+  /* margin-top: 78px;
+    position: fixed;
     z-index: 0;
-    width: 100%;
+    width: 100%; */
 }
 .subNavBar{
   background-color: blueviolet;
@@ -32,4 +36,12 @@ code {
 }
 img{
   width: 100%;
+}
+/* style.css */
+.collection-title{
+  margin: 1.75rem 0 0rem 33px;
+  line-height: 1.3;
+  color: #1d1d1d;
+  /* font-family: Montserrat,sans-serif; */
+  font-size: 2.55rem;
 }

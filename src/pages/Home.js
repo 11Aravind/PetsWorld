@@ -1,4 +1,6 @@
 import ImageSlider from "../component/ImageSlider";
+import Categorylist from "../component/Categorylist";
+import Card from "../component/Card";
 const Home = () => {
     return (
         <div className="topSpacing">
@@ -7,6 +9,16 @@ const Home = () => {
             </div>
             {/* <img src="./banner.webp" alt="banner" /> */}
 <ImageSlider/>
+<Categorylist />
+<div className="product-cards">
+<Card />
+{/* <Card /> */}
+{/* <Card />
+<Card /> */}
+</div>
+<Categorylist />
+
+
             </div>
     );
 }
