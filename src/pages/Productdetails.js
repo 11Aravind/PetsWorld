@@ -10,11 +10,9 @@ const Productdetails=()=>{
                 <div className="product-title">
                 Pedigree Adult Dry Dog Food - Chicken & Vegetables
                 </div>
-                <div className="price">
+                <div className="price productdetails-price">
                     <div className="newPrice">₹ 269</div>
-                    <div className="oldPrice"> ₹ 299</div>
-                    (inclusive of all taxes)
-
+                    <div className="oldPrice"> ₹ 299(inclusive of all taxes)</div>
                 </div>
                     <button className="btn-cart">Add to Cart</button>
             </div>

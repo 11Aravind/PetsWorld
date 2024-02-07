@@ -3,7 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 19%;
+    width: 25%;
+    
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 23px 8px;

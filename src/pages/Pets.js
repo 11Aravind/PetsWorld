@@ -28,12 +28,7 @@ const Pets=()=>{
 <h1 className="collection-title">          New Products</h1>      
      <div className="product-cards">
            <Card />
-           <Card />
-           <Card />
-           <Card />
-           <Card />
-           <Card />
-           <Card />
+           
             </div> 
             
         </div>
