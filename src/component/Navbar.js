@@ -43,7 +43,7 @@ const Navbar = () => {
                     <img src="	https://greenlandorganicfarms.com/image/logo.png" alt="" />                </Link> </h1>
                 <ul className="menu-items">
                     <li><Link to="/" className="menu">search</Link></li>
-                    <li><Link to="/" className="menu"><i className="fa fa-shopping-cart" aria-hidden="true"></i></Link></li>
+                    <li><Link to="/" className="menu"><i class="bi bi-cart-check-fill"></i></Link></li>
                     <li><Link to="/login"><button className="loginBtn menu">Login</button></Link></li>
                 </ul>
             </div>

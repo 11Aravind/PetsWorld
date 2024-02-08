@@ -1,4 +1,3 @@
-import Catalog from "react-catalog-view";
 const Foods=()=>{
     let products = 
     [
@@ -68,50 +67,7 @@ const Foods=()=>{
    };
     return(
         <div className="topSpacing">
-        <Catalog
-        data = {products}		
-        // Array of JSON Objects (required)
-        contentKeys={CONTENT_KEYS}  
-        // JSON Object defining the keys that will be 
-        // used from the data array, keys should match. (required)
-        skeleton={0}
-        // Any non zero number will override default cards
-        // and will show that many skeleton cards.           
-        cardSize="sm"
-        // Card sizes, sm, md and lg for small, medium  and large
-        btnOneText="Add to Cart"
-        // Enter text for action button one 
-        // or pass empty string to hide.  
-        // btnTwoText="Purchase Now"
-        // Enter text for action button two 
-        // or pass empty string to hide.
-        btnOneHandler={(args, event, objectData)=>{
-         // 'objectData' returns object data from 'data' prop
-         // any arguments passed will be before 'event' 
-         // and 'objectData'
-        }}
-        btnTwoHandler={(args, event, row)=>{
-         // 'objectData' returns object data from 'data' prop
-         // any arguments passed will be before 'event' 
-         // and 'objectData'
-        }}
-        imageClickHandler={(args, event, row)=>{
-         // 'objectData' returns object data from 'data' prop
-         // any arguments passed will be before 'event' 
-         // and 'objectData'
-        }}
-        // cardControls={ dataObj => {
-        //     return(
-        //        <div>
-        //           <input className='my-custom-input' placeholder='custom-input' />
-        //           <button className='my-custom-button' type='submit'> OK </button> 
-        //        </div>
-        //     )
-        //  }}
-         // Pass a function which returns JSX to be rendered inside card
-         // This function will have 'dataObj' containing JSON of
-         // the item each card represents
-     />
+        <h1>foood</h1>
      </div>
    )
 }

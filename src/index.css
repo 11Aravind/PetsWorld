@@ -17,9 +17,13 @@ code {
   margin: 0;;
   padding: 0;;
 }
+.col{
+  margin: 18px 0px;
+}
 .topSpacing{
-  margin-top: 78px;
-    position: fixed;
+  padding: 18px 110px;
+  /* margin-top: 78px; */
+    /* position: fixed; */
     /* margin-left: 67px;
     margin-right: 67px; */
   /* margin-top: 78px;
