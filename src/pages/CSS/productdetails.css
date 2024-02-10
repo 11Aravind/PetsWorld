@@ -7,10 +7,10 @@
 
 }
 .left-container{
-    width: 50%;
+    width: 30%;
 }
 .rigt-container{
-    width: 50%;
+    width: 70%;
 }
 .product-title{
     font-size: 25px;
@@ -24,7 +24,7 @@
     font-weight: 700;
     font-size: 25px;
     line-height: 25px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
         margin-top: 5px;
 }
 
@@ -39,4 +39,36 @@
    background-color: none;
    padding: 14px;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.aboutProductHeading{
+    font-size: 24px!important;
+    font-weight: 400;
+    justify-content: start;
+    letter-spacing: -.02em;
+    line-height: 32px;
+    margin-top: 3%;
+}
+.aboutProductDescription {
+    color: #646464;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.product-featureCOntainer {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-top: 2%;
+    text-align: center;
+}
+.shipping {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 109px;
 }

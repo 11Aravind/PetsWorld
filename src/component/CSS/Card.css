@@ -4,9 +4,14 @@
     justify-content: space-around;
 } */
 .product-name{
-    line-height: 21px;
-    font-size: 14px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
     font-weight: 500;
+    letter-spacing: .06rem;
+    line-height: 46px;
+    word-break: break-word;
 }
 .price{
     display: flex;
@@ -27,6 +32,7 @@
 .newprice{
     font-weight: 700;
     font-size: 1.375rem;
+    color: var(--primary);
 }
 h5.card-title {
     /* font-family: Montserrat,sans-serif; */

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 const Pets = () => {
     const petsDetails = [
         {
@@ -50,6 +51,7 @@ const Pets = () => {
                 {
                     petsDetails.map((singleProduct, index) => {
                         return (
+                           <Link to="/productdetails">
                             <div class="col" key={index}>
                                 <div class="card h-100">
                                     <img src={singleProduct.url} class="card-img-top product-image" alt="..." />
@@ -64,6 +66,7 @@ const Pets = () => {
                                     </div>
                                 </div>
                             </div>
+                           </Link>
                         )
                     })
                 }
