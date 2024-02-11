@@ -18,8 +18,6 @@ const Navbar = () => {
             menu: 'CONTACT',
             to: "/productdetails"
         },
-
-
     ];
     return (
         <nav className="navbar">
@@ -40,10 +38,10 @@ const Navbar = () => {
                     }
                 </ul>
                 <h1 className="logo"><Link to="/">
-                    <img src="	https://greenlandorganicfarms.com/image/logo.png" alt="" />                </Link> </h1>
+                    <img src="https://t4.ftcdn.net/jpg/07/15/16/29/240_F_715162989_1MUrcI1UKPnchkLmXN4JjIUKovm8poZs.jpg" alt="" />                </Link> </h1>
                 <ul className="menu-items">
                     <li><Link to="/" className="menu">search</Link></li>
-                    <li><Link to="/" className="menu"><i class="bi bi-cart-check-fill"></i></Link></li>
+                    <li><Link to="/cart" className="menu"><i class="bi bi-cart-check-fill"></i></Link></li>
                     <li><Link to="/login"><button className="loginBtn menu">Login</button></Link></li>
                 </ul>
             </div>

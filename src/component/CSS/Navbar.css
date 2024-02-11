@@ -30,6 +30,8 @@
 .menu-items{
     order: 2;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
     order: 1;
