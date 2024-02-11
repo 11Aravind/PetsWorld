@@ -143,3 +143,14 @@
 .formbold-btn:hover {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
+.login-container{
+  width: 100%;
+  /* background-color: #f5f5f5; */
+}
+.loginBox{
+  background-color: white;
+  margin-top: 119px;
+  margin-bottom: 157px;
+  border-radius: 3px;
+
+}
