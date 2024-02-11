@@ -47,26 +47,26 @@ const Pets = () => {
     return (
         <div className="topSpacing">
             <h1 className="collection-title">New Products</h1>
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div className="row row-cols-1 row-cols-md-4 g-4">
                 {
                     petsDetails.map((singleProduct, index) => {
                         return (
-                           <Link to="/productdetails">
-                            <div class="col" key={index}>
-                                <div class="card h-100">
-                                    <img src={singleProduct.url} class="card-img-top product-image" alt="..." />
-                                    <div class="card-body">
-                                        <h5 class="card-title">{singleProduct.petName}</h5>
-                                       
+                            <Link to="/productdetails">
+                                <div className="col" key={index}>
+                                    <div className="card h-100">
+                                        <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
+                                        <div className="card-body">
+                                            <h5 className="card-title">{singleProduct.petName}</h5>
+
                                             <div className="price">
                                                 <div className="oldPrice">₹{singleProduct.oldPrice}</div>
                                                 <div className="newprice">₹{singleProduct.newPrice}</div>
                                             </div>
-                                        <button className="btn btn-danger card-btn">View</button>
+                                            <button className="btn btn-danger card-btn">View</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                           </Link>
+                            </Link>
                         )
                     })
                 }

@@ -28,18 +28,7 @@
         margin-top: 5px;
 }
 
-/* //quantity.css */
-.quantitybtn-container{
-  
-   display: flex;
-   align-items: center;
-   border: 1px solid black; 
-}
-.btn-padding{
-   background-color: none;
-   padding: 14px;
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-}
+
 .aboutProductHeading{
     font-size: 24px!important;
     font-weight: 400;

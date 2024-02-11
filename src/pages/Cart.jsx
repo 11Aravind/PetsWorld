@@ -1,22 +1,26 @@
-// import "./CSS/Cart.css";
-const Cart=()=>{
-    return(
-        <div class="card mb-3" style={{"maxWidth": "540px"}}>
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://greenlandorganicfarms.com/api/User/images/3258734344440b6552205449cbb2f6dc.png" class="img-fluid rounded-start" alt="..."/>
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">
+import "./CSS/Cart.css";
+import Quantitybtn from "../component/Quantitybtn"
+const Cart = () => {
+  return (
+    <div className="cart-row">
+      <div className="cart-container">
+        <div className="cart-img">
+          <img src="	https://www.petsy.online/cdn/shop/products/Untitleddesign_23_223x223.jpg?v=1676372860" alt="" />
+        </div>
+        <div className="cart-details">
+        <div className="cart-description">
         Pedigree Adult Dry Dog Food - Chicken & Vegetables
-        </h5>
-        <p class="card-text">₹789</p>
-        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+        <div className="cart-price">
+        ₹789
+        </div>
+        <div className="quantitybtn">
+          <Quantitybtn />
+        </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-    )
+  )
 }
 export default Cart;
+// Quantitybtn
