@@ -1,6 +1,8 @@
 
 :root{
   --primary:#3c8031;
+  --color:white;
+  --projectedColor:#7755A2
 }
 *{
   font-family: Outfit,sans-serif!important;
@@ -15,7 +17,8 @@ a{
   margin: 18px 0px;
 }
 .topSpacing{
-  padding: 18px 110px;
+  /* padding: 18px 110px; */
+  padding: 0px 49px;
 }
 .subNavBar{
   background-color: blueviolet;

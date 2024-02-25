@@ -20,7 +20,7 @@ const Productdetails = () => {
         <div className="topSpacing">
             <div className="productDetails-container">
                 <div className="left-container">
-                    <img src="https://www.petsy.online/cdn/shop/products/Untitleddesign_21_502x502.jpg?v=1676372860" alt="" />
+                    <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_fish_whole_1_1.jpg" alt="" />
                 </div>
                 <div className="rigt-container">
                     <div className="product-name">

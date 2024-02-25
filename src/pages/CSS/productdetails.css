@@ -1,16 +1,20 @@
 .productDetails-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* align-items: center; */
-    padding: 68px 68px;
+    padding: 68px 0px;
     width: 100%;
 
 }
 .left-container{
-    width: 30%;
+    /* width: 30%; */
+    width: 440px;
+    float: left;
 }
 .rigt-container{
-    width: 70%;
+    /* width: 70%; */
+    width: 750px;
+    
 }
 .product-title{
     font-size: 25px;
@@ -78,4 +82,7 @@
     font-size: 13px;
     font-weight: bold;
     padding-bottom: 4px;
+}
+.left-container>img{
+    border-radius: 14px;
 }

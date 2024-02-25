@@ -1,0 +1,15 @@
+.link-container{
+    background-color: var(--primary);
+    color: var(--color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    line-height: 18px;
+    height: 30px;
+    text-shadow: 0px 0px 1px #666;
+    font-size: 12px;
+}
+.iconpadding{
+    padding: 4px;
+}

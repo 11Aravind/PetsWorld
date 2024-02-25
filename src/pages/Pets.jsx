@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 const Pets = () => {
     const petsDetails = [
         {
-            url: "https://www.petsy.online/cdn/shop/products/Untitleddesign_23_223x223.jpg?v=1676372860",
+            url: "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_fish_whole_1_1.jpg",
             petName: "Royal Canin Maxi Puppy Dry Dog Food",
             description: "description",
             oldPrice: 400,
