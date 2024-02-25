@@ -12,7 +12,7 @@ export const Login = () => {
           <h4>Login</h4>
 
           <div className="form-group">
-            <label for="username">Username</label>
+            <label for="username">E-mail</label>
             <input
               type="text"
               className="form-control username"
@@ -28,7 +28,7 @@ export const Login = () => {
             />
           </div>
           <small>
-            A tutorial on how to align a "form" in Bootstrap 4 and 5.
+          New here ? <Link to="/signup">Create Account</Link>
           </small>
 
           <button type="submit" className="btn btn-primary btn-customized mt-4 card-btn">

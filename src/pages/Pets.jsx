@@ -62,7 +62,7 @@ const Pets = () => {
                                                 <div className="oldPrice">₹{singleProduct.oldPrice}</div>
                                                 <div className="newprice">₹{singleProduct.newPrice}</div>
                                             </div>
-                                            <button className="btn btn-danger card-btn">View</button>
+                                            {/* <button className="btn btn-danger card-btn">View</button> */}
                                         </div>
                                     </div>
                                 </div>

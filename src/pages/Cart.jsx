@@ -19,6 +19,7 @@ const Cart = () => {
         </div>
         </div>
       </div>
+      <button className="btn btn-primary card-btn">CHECKOUT -  ₹789</button>
     </div>
   )
 }

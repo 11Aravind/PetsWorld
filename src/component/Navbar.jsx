@@ -42,7 +42,7 @@ const Navbar = () => {
                 <ul className="menu-items">
                     <li><Link to="/" className="menu">search</Link></li>
                     <li><Link to="/cart" className="menu"><i class="bi bi-cart-check-fill"></i></Link></li>
-                    <li><Link to="/login"><button className="loginBtn menu">Login</button></Link></li>
+                    <li><Link to="/login"><button className="addToCartBtn">Login</button></Link></li>
                 </ul>
             </div>
         </nav>

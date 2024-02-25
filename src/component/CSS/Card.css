@@ -4,14 +4,9 @@
     justify-content: space-around;
 } */
 .product-name{
-    font-family: Outfit;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    font-weight: 500;
-    letter-spacing: .06rem;
-    line-height: 46px;
-    word-break: break-word;
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
 }
 .price{
     display: flex;
@@ -20,35 +15,48 @@
 }
 .oldPrice{
     text-decoration-line: line-through;
-    font-size: .8125rem;
-    line-height: 1.38;
-    color: #949494;
+    text-decoration-color: red;
+    color: #666 !important;
+    font-size: 12px;
 }
 
 .product-image{
-    height: 223px;
-    padding: 12px;
+    /* height: 223px;
+    padding: 12px; */
+    height: 173px;
 }
 .newprice{
-    font-weight: 700;
-    font-size: 1.375rem;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 0;
     color: var(--primary);
 }
+
 h5.card-title {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
     /* font-family: Montserrat,sans-serif; */
-    font-style: normal;
+    /* font-style: normal;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.3125;
     letter-spacing: normal;
     text-transform: none;
-    white-space: normal;
+    white-space: normal; */
 }
 .card.h-100 {
     border-radius: 6px;
     border: 1px solid rgba(128,128,128,.16);
     box-shadow: 0 1px 4px rgb(128 128 128 / 11%);
 }
-.card-btn{
-    width: 100%;
+.addToCartBtn{
+    color: white;
+    background: var(--primary);
+    border: none;
+    padding: 2px 9px;
+    font-size: 13px;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
 }

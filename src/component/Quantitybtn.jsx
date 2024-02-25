@@ -1,10 +1,12 @@
+import { useState } from "react";
 import "./CSS/Quantitybtn.css";
 const Quantitybtn=()=>{
+    const[quentity,setQuantity]=useState(1)
     return(
         <div className="quantitybtn-container">
-            <div className="quentitybtn quentity_decreass">-</div>
-            <div className="quentitybtn quentity_count">3</div>
-            <div className="quentitybtn quentity_increass">+</div>
+            <div className="quentitybtn quentity_decreass" onClick={()=>setQuantity(quentity-1)} >-</div>
+            <div className="quentitybtn quentity_count">{quentity}</div>
+            <div className="quentitybtn quentity_increass" onClick={()=>setQuantity(quentity+1)}>+</div>
         </div>
     )
 }
