@@ -9,7 +9,7 @@ const Pets = () => {
             newPrice: 300
         },
         {
-            url: "https://www.petsy.online/cdn/shop/products/71xCoqZkdkL._SL1500_502x502.jpg?v=1656504446",
+            url: "./photo.png",
             petName: "Royal Canin Mini Adult Dry Dog Food",
             description: "description",
             oldPrice: 400,
@@ -54,7 +54,10 @@ const Pets = () => {
                             <Link to="/productdetails">
                                 <div className="col" key={index}>
                                     <div className="card h-100">
-                                        <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
+                                       <div className="img-container">
+                                       <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
+                                        <button className="options-btn">view option</button>
+                                       </div>
                                         <div className="card-body">
                                             <h5 className="card-title">{singleProduct.petName}</h5>
 

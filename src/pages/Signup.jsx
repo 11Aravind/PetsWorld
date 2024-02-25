@@ -34,7 +34,7 @@ console.log(signupData);
         {/* <div className="login-logo">
             <img src="https://t4.ftcdn.net/jpg/07/15/16/29/240_F_715162989_1MUrcI1UKPnchkLmXN4JjIUKovm8poZs.jpg" alt="" />
           </div> */}
-        <h4>Signup</h4>
+        <h4 className="main-headding">Signup</h4>
         <div className="errorMsg">{message}</div>
         <div className="form-group">
           <label for="username">E-mail</label>
@@ -66,9 +66,12 @@ console.log(signupData);
         <small>
           Already have an Account ? <Link to="/login">Login</Link>
         </small>
-        <button type="submit" className="btn btn-primary btn-customized mt-4 card-btn" onClick={signUp}>
+        <div className="form-group">
+          
+        <button type="submit" className="addToCartBtn" onClick={signUp}>
           Signup
         </button>
+        </div>
         {/* </form> */}
 
       </div>

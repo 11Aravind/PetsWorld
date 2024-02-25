@@ -60,3 +60,24 @@ h5.card-title {
     line-height: 30px;
     font-weight: bold;
 }
+.img-container{
+    position: relative;
+    display: inline-block;
+}
+.options-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: var(--projectedColor);
+    border: 1px solid var(--projectedColor);
+    font-size: 13px;
+    padding: 1px 8px;
+    cursor: pointer;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+  }
+  .img-container:hover .options-btn {
+    visibility: visible;
+  }

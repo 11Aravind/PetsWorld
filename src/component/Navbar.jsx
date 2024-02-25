@@ -15,7 +15,15 @@ const Navbar = () => {
             to: "/accessorys"
         },
         {
-            menu: 'CONTACT',
+            menu: 'MEDICINE',
+            to: "/accessorys"
+        },
+        {
+            menu: 'BLOGS',
+            to: "/accessorys"
+        },
+        {
+            menu: 'CARE TAKING',
             to: "/productdetails"
         },
     ];
@@ -32,7 +40,12 @@ const Navbar = () => {
                     {
                         menus.map((menu, id) => {
                             return (
-                                <li><Link key={id} to={menu.to} className="menu">{menu.menu}</Link></li>
+                                <li className="menuContainer">
+                                    <div className="image-container">
+                                    <img src="https://static.freshtohome.com/images/icons/category-icons/chicken.png" />
+                                    </div>
+                                    <Link key={id} to={menu.to} className="menu">
+                                    <span>{menu.menu}</span></Link></li>
                             );
                         })
                     }
@@ -41,7 +54,7 @@ const Navbar = () => {
                     <img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt="" />
                 </Link> </h1>
                 <ul className="menu-items">
-                    <li><Link to="/" className="menu">search</Link></li>
+                    {/* <li><Link to="/" className="menu">search</Link></li> */}
                     <li><Link to="/cart" className="menu"><i class="bi bi-cart-check-fill"></i></Link></li>
                     <li><Link to="/login"><button className="addToCartBtn">Login</button></Link></li>
                 </ul>

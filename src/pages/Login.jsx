@@ -9,7 +9,7 @@ export const Login = () => {
           {/* <div className="login-logo">
             <img src="https://t4.ftcdn.net/jpg/07/15/16/29/240_F_715162989_1MUrcI1UKPnchkLmXN4JjIUKovm8poZs.jpg" alt="" />
           </div> */}
-          <h4>Login</h4>
+          <h4 className="main-headding">Login</h4>
 
           <div className="form-group">
             <label for="username">E-mail</label>
@@ -30,10 +30,12 @@ export const Login = () => {
           <small>
           New here ? <Link to="/signup">Create Account</Link>
           </small>
+<div className="form-group">
 
-          <button type="submit" className="btn btn-primary btn-customized mt-4 card-btn">
+          <button type="submit" className="addToCartBtn">
             Login
           </button>
+</div>
         </form>
 
       </div>

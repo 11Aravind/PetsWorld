@@ -2,7 +2,7 @@
 :root{
   --primary:#3c8031;
   --color:white;
-  --projectedColor:#7755A2
+  --projectedColor:#7755A2;
 }
 *{
   font-family: Outfit,sans-serif!important;
@@ -49,4 +49,7 @@ img{
     background-color: var(--primary);
     margin: 0px 107px;
     border-radius: 3px;
+}
+.main-headding {
+  color: var(--primary);
 }
