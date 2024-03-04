@@ -4,13 +4,13 @@ const ImageSlider = () => {
     <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
   <div class="carousel-inner">
     <div class="carousel-item active">
-<img src="https://www.petsy.online/cdn/shop/files/WEEKEND-SALE-BANNER-1.jpg?v=1709018614&width=1912" class="d-block w-100" alt="..."/>
+<img src="./images/banner1.webp" class="d-block w-100" alt="img1"/>
      </div>
      <div class="carousel-item">
-<img src="https://cdn.petsworld.network/v1/s/images/D1E47A1ED5E43C6B4B1633611A18D8D9/1920.webp" class="d-block w-100" alt="..."/>
+<img src="./images/banner2.webp" class="d-block w-100" alt="img2"/>
      </div>
      <div class="carousel-item">
-<img src="https://cdn.freshtohome.com/media/banner/a0cb700b984330c3.jpg" class="d-block w-100" alt="..."/>
+<img src="./images/banner3.webp" class="d-block w-100" alt="img3"/>
      </div>
    </div>
    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -28,13 +28,13 @@ const ImageSlider = () => {
 export default ImageSlider;
 export const Cardslider=()=>{
   const slides = [
-    {image:"https://picsum.photos/200/300",title:"This is a title",description:"This is a description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/600/500",title:"This is a second title",description:"This is a second description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/700/600",title:"This is a third title",description:"This is a third description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/500/400",title:"This is a fourth title",description:"This is a fourth description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/200/300",title:"This is a fifth title",description:"This is a fifth description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/800/700",title:"This is a sixth title",description:"This is a sixth description",clickEvent:sliderClick},
-    {image:"https://picsum.photos/300/400",title:"This is a seventh title",description:"This is a seventh description",clickEvent:sliderClick},
+    {image:"https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/g/o/goat-chicken-chicken_cubes_1_1.jpg",title:"This is a title",description:"This is a description" },
+    {image:"https://picsum.photos/600/500",title:"This is a second title",description:"This is a second description" },
+    {image:"https://picsum.photos/700/600",title:"This is a third title",description:"This is a third description" },
+    {image:"https://picsum.photos/500/400",title:"This is a fourth title",description:"This is a fourth description" },
+    {image:"https://picsum.photos/200/300",title:"This is a fifth title",description:"This is a fifth description" },
+    {image:"https://picsum.photos/800/700",title:"This is a sixth title",description:"This is a sixth description" },
+    {image:"https://picsum.photos/300/400",title:"This is a seventh title",description:"This is a seventh description" },
 ]
 return(
   <ReactCardSlider slides={slides}/>

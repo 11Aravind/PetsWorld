@@ -8,6 +8,7 @@ const Home = () => {
 <>
 <ImageSlider/>
 {/* <Categorylist/> */}
+<h1 className="home-section--title">Pet-tastic Deals</h1>
 <Cardslider/>
 </>
 

@@ -53,3 +53,11 @@ img{
 .main-headding {
   color: var(--primary);
 }
+.home-section--title{
+  font-size: 34px;
+  padding-bottom: 30px;
+  color: #1d1d1d;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
