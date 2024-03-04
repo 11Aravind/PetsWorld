@@ -80,6 +80,7 @@
 }
 
 @media (max-width: 768px){
+
     .navbar{
         opacity: 0.95;
     }
@@ -109,8 +110,10 @@
 
     .navbar-container .hamburger-lines{
         display: block;
-        height: 28px;
-        width: 35px;
+        /* height: 28px;
+        width: 35px; */
+        height: 21px;
+        width: 26px;
         position: absolute;
         top: 20px;
         left: 20px;

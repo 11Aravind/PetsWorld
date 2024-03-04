@@ -36,7 +36,7 @@ const Productdetails = () => {
                         </div>
                         <div className="addToCart">
                             <Link to="/cart">
-                                <button className="addToCartBtn">Add to Cart</button>
+                                <button className="addToCartBtn">Add</button>
                             </Link>
                         </div>
                     </div>

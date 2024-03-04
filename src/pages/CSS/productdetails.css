@@ -86,3 +86,22 @@
 .left-container>img{
     border-radius: 14px;
 }
+@media (max-width:768px) {
+.productDetails-container{
+flex-direction: column;
+padding: 9px 0px;
+}    
+.btnContainer{
+    justify-content: space-evenly;
+}
+.left-container{
+    width: 100%;
+}
+.rigt-container{
+    width: 100%;
+    padding: 12px 18px;
+}
+.left-container>img {
+border-radius: 0px;
+}
+}

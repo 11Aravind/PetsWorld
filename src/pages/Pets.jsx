@@ -45,14 +45,14 @@ const Pets = () => {
         },
     ]
     return (
-        <div className="topSpacing">
+        <div className="topSpacing"> 
             <h1 className="collection-title">New Products</h1>
-            <div className="row row-cols-1 row-cols-md-4 g-4">
+            <div className="row row-cols-1 row-cols-sm-2 g-4">
                 {
                     petsDetails.map((singleProduct, index) => {
                         return (
-                            <Link to="/productdetails">
-                                <div className="col" key={index}>
+                            <div className="col-6" key={index}>
+                                    <Link to="/productdetails">
                                     <div className="card h-100">
                                        <div className="img-container">
                                        <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
@@ -68,8 +68,8 @@ const Pets = () => {
                                             {/* <button className="btn btn-danger card-btn">View</button> */}
                                         </div>
                                     </div>
-                                </div>
                             </Link>
+                                </div>
                         )
                     })
                 }
