@@ -5,7 +5,7 @@
  const App=()=> {
   return (
  <>
- <Toplinks />
+ {/* <Toplinks /> */}
   <Navbar/>
   <AllRouter/>
   {/* <Footer/> */}

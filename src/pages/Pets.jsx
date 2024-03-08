@@ -46,7 +46,7 @@ const Pets = () => {
     ]
     return (
         <div className="topSpacing"> 
-            <h1 className="collection-title">New Products</h1>
+            <h1 className="main-headding">New Products</h1>
             <div className="row row-cols-1 row-cols-sm-2 g-4">
                 {
                     petsDetails.map((singleProduct, index) => {
@@ -59,8 +59,7 @@ const Pets = () => {
                                         <button className="options-btn">view option</button>
                                        </div>
                                         <div className="card-body">
-                                            <h5 className="card-title">{singleProduct.petName}</h5>
-
+                                            <div className="card-title">{singleProduct.petName}</div>
                                             <div className="price">
                                                 <div className="oldPrice">₹{singleProduct.oldPrice}</div>
                                                 <div className="newprice">₹{singleProduct.newPrice}</div>

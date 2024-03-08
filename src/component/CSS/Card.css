@@ -4,9 +4,11 @@
     justify-content: space-around;
 } */
 .product-name{
-    color: #555;
+    color: #000;
     font-size: 20px;
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .price{
     display: flex;
@@ -32,18 +34,10 @@
     color: var(--primary);
 }
 
-h5.card-title {
-    font-weight: 600;
-    font-size: 13px;
+.card-title {
+    font-weight: 400;
+    font-size: 14px;
     color: #333;
-    /* font-family: Montserrat,sans-serif; */
-    /* font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.3125;
-    letter-spacing: normal;
-    text-transform: none;
-    white-space: normal; */
 }
 .card.h-100 {
     border-radius: 6px;

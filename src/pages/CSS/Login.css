@@ -157,3 +157,29 @@
 .errorMsg{
   color: red;
 }
+.txtBox-spacing{
+  padding: 9px 0px;
+}
+.bigLoginBtn{
+  width: 100%;
+    border-radius: 19px;
+    padding: 5px 9px;
+    color: #fff;
+    background: var(--primary);
+    border: none;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.redirectLink{
+  font-size: .875em;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-top: 4px;
+}
+.login-desc {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}

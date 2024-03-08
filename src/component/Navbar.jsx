@@ -41,9 +41,9 @@ const Navbar = () => {
                         menus.map((menu, id) => {
                             return (
                                 <li className="menuContainer">
-                                    <div className="image-container">
+                                    {/* <div className="image-container">
                                     <img src="https://static.freshtohome.com/images/icons/category-icons/chicken.png" />
-                                    </div>
+                                    </div> */}
                                     <Link key={id} to={menu.to} className="menu">
                                     <span>{menu.menu}</span></Link></li>
                             );
@@ -52,6 +52,7 @@ const Navbar = () => {
                 </ul>
                 <h1 className="logo"><Link to="/">
                     <img src="https://static.freshtohome.com/images/logo/2021/logo-medium.png" alt="" />
+
                 </Link> </h1>
                 <ul className="menu-items">
                     {/* <li><Link to="/" className="menu">search</Link></li> */}
