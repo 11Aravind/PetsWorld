@@ -1,7 +1,4 @@
-.cart-container{
-    display: flex;
 
-}
 .cart-img{
     width: 20%;
     display: flex;
@@ -20,6 +17,19 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.cart-row{
+.cart-container{
     margin: 0px 107px;
 }
+.cart-row{
+    display: flex;
+    margin: 11px 0px;
+}
+.cart-description{
+    font-size: 13px;
+    font-weight: 400;
+}
+@media (max-width:768px) {
+    .cart-container {
+        margin: 0px 11px;
+    }
+    }

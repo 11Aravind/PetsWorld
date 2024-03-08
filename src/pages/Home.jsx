@@ -3,8 +3,6 @@ import {Cardslider} from "../component/ImageSlider";
 import Categorylist from "../component/Categorylist";
 import MyCarousel  from "../component/CarouselComponent";
 const Home = () => {
-
-    // const carouselItems = ["Item 1", "Item 2", "Item 3", "Item 4"];
     const newProducts = [
         {
             url: "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_fish_whole_1_1.jpg",
@@ -53,7 +51,7 @@ const Home = () => {
         <>
             <ImageSlider />
             {/* <Categorylist/> */}
-            <h1 className=" main-headding ">Pet-tastic Deals</h1>
+            <h1 className="headding">Pet-tastic Deals</h1>
             {/* <MyCarousel  items={newProducts}/> */}
             <Cardslider />
         </>

@@ -46,35 +46,36 @@ const Pets = () => {
     ]
     return (
         <div className="topSpacing"> 
-            <h1 className="main-headding">New Products</h1>
-            <div className="row row-cols-1 row-cols-sm-2 g-4">
-                {
-                    petsDetails.map((singleProduct, index) => {
-                        return (
-                            <div className="col-6" key={index}>
-                                    <Link to="/productdetails">
-                                    <div className="card h-100">
-                                       <div className="img-container">
-                                       <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
+        <h1 className="headding">New Products</h1>
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+            {
+                petsDetails.map((singleProduct, index) => {
+                    return (
+                        <div className="col-6 col-sm-6 col-md-4 col-lg-3" key={index}>
+                            <Link to="/productdetails" className="card-link">
+                                <div className="card h-100">
+                                    <div className="img-container">
+                                        <img src={singleProduct.url} className="card-img-top product-image" alt="..." />
                                         <button className="options-btn">view option</button>
-                                       </div>
-                                        <div className="card-body">
-                                            <div className="card-title">{singleProduct.petName}</div>
-                                            <div className="price">
-                                                <div className="oldPrice">₹{singleProduct.oldPrice}</div>
-                                                <div className="newprice">₹{singleProduct.newPrice}</div>
-                                            </div>
-                                            {/* <button className="btn btn-danger card-btn">View</button> */}
+                                    </div>
+                                    <div className="card-body">
+                                        <div className="card-title">{singleProduct.petName}</div>
+                                        <div className="price">
+                                            <div className="oldPrice">₹{singleProduct.oldPrice}</div>
+                                            <div className="newprice">₹{singleProduct.newPrice}</div>
                                         </div>
                                     </div>
-                            </Link>
                                 </div>
-                        )
-                    })
-                }
-
-            </div>
+                            </Link>
+                        </div>
+                    )
+                })
+            }
         </div>
+    </div>
+    
+    
+    
     )
 }
 export default Pets;

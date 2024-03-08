@@ -5,7 +5,7 @@ const Quantitybtn=()=>{
     return(
         <div className="quantitybtn-container">
             <div className="quentitybtn quentity_decreass" onClick={()=>setQuantity(quentity-1)} >-</div>
-            <div className="quentitybtn quentity_count">{quentity}</div>
+            <div className="quantity  quentity_count">{quentity}</div>
             <div className="quentitybtn quentity_increass" onClick={()=>setQuantity(quentity+1)}>+</div>
         </div>
     )
