@@ -48,15 +48,14 @@ const Home = () => {
         },
     ]
     return (
-        <>
-            <ImageSlider />
-            {/* <Categorylist/> */}
+      <div className="container">
+        <ImageSlider />
+            <h1 className="headding">Our Categorys</h1>
+            <Categorylist/>
             <h1 className="headding">Pet-tastic Deals</h1>
             {/* <MyCarousel  items={newProducts}/> */}
             <Cardslider />
-        </>
-
-        // </div>
+      </div>
     );
 }
 export default Home;
