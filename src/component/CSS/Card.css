@@ -25,7 +25,9 @@
 .product-image{
     /* height: 223px;
     padding: 12px; */
-    height: 173px;
+    /* height: 173px; */
+    margin-top: 9px;
+    height: 227px;
 }
 .newprice{
     font-weight: 600;

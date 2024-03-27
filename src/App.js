@@ -10,8 +10,11 @@ const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     httpRequest('get', "api/product").then((data) => {
-      dispatch(fetchAndStore(data))
-      console.log(data);
+      if (data && Array.isArray(data.productDetails)) {
+        dispatch(fetchAndStore(data.productDetails))
+    } else {
+        console.error("Fetched data does not contain 'productDetails' array:", data);
+    }
     })
       .catch(error => {
         console.error("Error fetching data:", error);

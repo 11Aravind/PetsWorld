@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./CSS/productdetails.css"
 import Quantitybtn from "../component/Quantitybtn";
+import { useSelector } from "react-redux";
+import { useEffect } from "react";
 const Productdetails = () => {
+    const { id } = useParams();
+    const product = useSelector((state) => state.products.productList.find(product => product._id === id));
     const productFeature = [
         {
             url: "https://greenlandorganicfarms.com/shipping.png",
@@ -20,15 +24,15 @@ const Productdetails = () => {
         <div className="topSpacing">
             <div className="productDetails-container">
                 <div className="left-container">
-                    <img src="https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/s/e/seer_fish_whole_1_1.jpg" alt="" />
+                    <img src={`http://localhost:5000//${product.image}`} alt="" />
                 </div>
                 <div className="rigt-container">
                     <div className="product-name">
-                        Pedigree Adult Dry Dog Food - Chicken & Vegetables
+                        {product && product.name}
                     </div>
                     <div className="price productdetails-price">
-                        <div className="oldPrice"> ₹ 299</div>
-                        <div className="newprice">₹ 269</div>
+                        <div className="oldPrice"> ₹ {product && product.oldPrice}</div>
+                        <div className="newprice">₹ {product && product.newPrice}</div>
                     </div>
                     <div className="addToCart fixedBtn">
                         <Link to="/cart">
@@ -39,8 +43,8 @@ const Productdetails = () => {
                         Description
                     </div>
                     <div className="aboutProductDescription">
-                        Our tulip fantasy planter is beautiful in its simplicity. The minimalist design with carefully handcrafted shape means its the best fit for your plants while also elevating the decor of your home. Made of premium grade ceramic, the planter sports the silkiest glaze you will ever come across in planters. This indoor planter has a weighted base with a proper drainage hole for good plant health. a perfect fit for any home and a great choice for every plant.
-                    </div>
+                        {product && product.description }                  
+                          </div>
                     <div className="product-featureCOntainer">
                         {
                             productFeature.map((feature, index) =>
@@ -59,3 +63,4 @@ const Productdetails = () => {
     );
 }
 export default Productdetails;
+

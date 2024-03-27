@@ -26,7 +26,7 @@ const routerInfo = [
         component: <Accessorys />
     },
     {
-        path: "/productdetails",
+        path: "/productdetails/:id",
         component: <Productdetails />
     },
     {
